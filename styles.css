@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.meter-container {
+    width: 80%;
+    max-width: 400px;
+    height: 30px;
+    background: #ddd;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.meter-bar {
+    width: 0%;
+    height: 100%;
+    background: #4CAF50;
+    transition: width 0.1s ease-in-out;
+}
